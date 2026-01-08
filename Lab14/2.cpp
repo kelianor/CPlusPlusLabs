@@ -90,7 +90,7 @@ int main()
         printFirma(dynMassiv[i]);
     }
 
-    const int s = 3;
+    const int s = 10;
     MARSHROUTE arr[s];
     for(int i = 0; i < s; i++)
     {
@@ -141,7 +141,7 @@ int main()
     } while (cont);
     
 
-    //delete[] dynMassiv;
+    delete[] dynMassiv;
 
     system("pause");
     return 0;
