@@ -3,11 +3,7 @@
 // #include <Windows.h>
 
 using namespace std;
-<<<<<<< HEAD
 const int n = 80;
-=======
-const int n = 64;
->>>>>>> 5c186eec7cf785ae58a8c29f98781a141824e184
 struct Firma 
 {
     int employees;
@@ -18,7 +14,6 @@ struct Firma
     int managmentAges[3];
 };
 
-<<<<<<< HEAD
 struct MARSHROUTE
 {
     char startStop[n];
@@ -30,11 +25,6 @@ void printFirma(Firma);
 void printFirma(Firma*);
 void inputFirma(Firma&);
 void inputRoute(MARSHROUTE&);
-=======
-void printFirma(Firma);
-void printFirma(Firma*);
-void inputFirma(Firma&);
->>>>>>> 5c186eec7cf785ae58a8c29f98781a141824e184
 
 int main() 
 {
@@ -99,7 +89,6 @@ int main()
     {
         printFirma(dynMassiv[i]);
     }
-<<<<<<< HEAD
 
     const int s = 3;
     MARSHROUTE arr[s];
@@ -152,11 +141,8 @@ int main()
     } while (cont);
     
 
-    delete[] dynMassiv;
+    //delete[] dynMassiv;
 
-=======
-    
->>>>>>> 5c186eec7cf785ae58a8c29f98781a141824e184
     system("pause");
     return 0;
 }
@@ -190,7 +176,6 @@ void inputFirma(Firma &firm)
     cin >> firm.managmentAges[1];
     cout << "Введите возраст третьего сотрудника: ";
     cin >> firm.managmentAges[2];
-<<<<<<< HEAD
 }
 
 void inputRoute(MARSHROUTE &route)
@@ -203,6 +188,4 @@ void inputRoute(MARSHROUTE &route)
     cout << "Введите название конечного пункта: ";
     cin.ignore();
     cin.get(route.endStop, n);
-=======
->>>>>>> 5c186eec7cf785ae58a8c29f98781a141824e184
 }
