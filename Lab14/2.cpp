@@ -3,7 +3,7 @@
 // #include <Windows.h>
 
 using namespace std;
-const int n = 64;
+const int n = 80;
 struct Firma 
 {
     int employees;
@@ -24,6 +24,7 @@ struct MARSHROUTE
 void printFirma(Firma);
 void printFirma(Firma*);
 void inputFirma(Firma&);
+void inputRoute(MARSHROUTE&);
 
 int main() 
 {
@@ -88,7 +89,58 @@ int main()
     {
         printFirma(dynMassiv[i]);
     }
+
+    const int s = 3;
+    MARSHROUTE arr[s];
+    for(int i = 0; i < s; i++)
+    {
+        inputRoute(arr[i]);
+    }
+
+    for(int i = 0; i < s; i++)
+    {
+        for(int j = i; j < s; j++)
+        {
+            if(strcmp(arr[i].startStop, arr[j].startStop) > 0)
+            {
+                MARSHROUTE tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+            }
+        }
+    }
+
+    char busStop[n];
+    bool cont;
+    do
+    {
+        cout << "Введите название остановки: ";
+        cin.ignore();
+        cin.get(busStop, n);
+
+        cout << "Все маршруты которые останавливаются на данной остановке:\n";
+
+        int count = 0;
+        for(int i = 0; i < s; i++)
+        {
+            if(strcmp(busStop, arr[i].endStop) == 0 | strcmp(busStop, arr[i].startStop) == 0)
+            {
+                cout << "Маршрут " << arr[i].route << ": " << arr[i].startStop << " - " << arr[i].endStop << endl;
+                count++;
+            }
+        }
+
+        if(count == 0)
+        {
+            cout << "Таких маршрутов нет\n";
+        }
+
+        cout << "Продолжить? 0 - Нет, 1 - Да: ";
+        cin.ignore();
+        cin >> cont;
+    } while (cont);
     
+
     delete[] dynMassiv;
 
     system("pause");
@@ -124,4 +176,16 @@ void inputFirma(Firma &firm)
     cin >> firm.managmentAges[1];
     cout << "Введите возраст третьего сотрудника: ";
     cin >> firm.managmentAges[2];
+}
+
+void inputRoute(MARSHROUTE &route)
+{
+    cout << "Введите номер маршрута: ";
+    cin >> route.route;
+    cout << "Введите название начального пункта: ";
+    cin.ignore();
+    cin.get(route.startStop, n);
+    cout << "Введите название конечного пункта: ";
+    cin.ignore();
+    cin.get(route.endStop, n);
 }
