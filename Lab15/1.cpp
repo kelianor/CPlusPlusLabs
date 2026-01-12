@@ -217,6 +217,27 @@ int main()
                 }
                 break;
             }
+            case 3:
+            {
+                int cols, rows;
+                do
+                {
+                    cout << "Введите количество строк: ";
+                    cin >> cols;
+                } 
+                while (cols <= 0);
+
+                do
+                {
+                    cout << "Введите количество столбцоы: ";
+                    cin >> rows;
+                } 
+                while (cols <= 0);
+        
+                long int **mas = new long int*[cols];
+
+                break;
+            }
         }
     } while (choice != 0);
     return 0;
