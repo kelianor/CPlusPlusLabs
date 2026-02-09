@@ -1,0 +1,1 @@
+bool matchRegExpr(const char*);
