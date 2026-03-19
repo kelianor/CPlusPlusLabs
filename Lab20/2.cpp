@@ -121,17 +121,19 @@ int main()
         {
             case 1:
             {
-                arr[i] = new Trapezoid;
+                arr[i] = *(new Trapezoid);
                 break;
             }
             case 2:
             {
-                arr[i] = new Parallelogram;
+                arr[i] = *(new Parallelogram);
                 break;
             }
             arr[i].show();
             cout << "Square: " << arr[i].square() << endl;
+            delete arr[i];
         }
-    } 
+    }
+    delete arr;
     return 0;
 }
