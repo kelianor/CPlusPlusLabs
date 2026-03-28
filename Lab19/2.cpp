@@ -91,7 +91,7 @@ int main()
     }
     
     cout << "\nLine array\n";
-    Line arr[3] = {a, c, e}; 
+    Line *arr[3] = {b, d, f}; 
     for(int i = 0; i < 3; i++)
     {
         arr[i].show();
