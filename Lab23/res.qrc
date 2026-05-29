@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/Shlusha.bmp</file>
+        <file>assets/Arturka.bmp</file>
+        <file>assets/WindowIcon.png</file>
+    </qresource>
+</RCC>
