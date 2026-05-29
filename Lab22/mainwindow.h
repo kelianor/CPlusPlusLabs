@@ -1,0 +1,44 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include <QMessageBox>
+#include <QtMath>
+
+QT_BEGIN_NAMESPACE
+namespace Ui {
+class MainWindow;
+}
+QT_END_NAMESPACE
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    explicit MainWindow(QWidget *parent = nullptr);
+    ~MainWindow() override;
+
+private slots:
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_4_clicked();
+
+    void on_checkBox_checkStateChanged(const Qt::CheckState &arg1);
+
+    void on_checkBox_2_checkStateChanged(const Qt::CheckState &arg1);
+
+    void on_checkBox_3_checkStateChanged(const Qt::CheckState &arg1);
+
+    void on_Calculate_clicked();
+
+    void on_pushButton_6_clicked();
+
+private:
+    Ui::MainWindow *ui;
+};
+#endif // MAINWINDOW_H
