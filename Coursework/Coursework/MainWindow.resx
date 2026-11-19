@@ -1,0 +1,1108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>514, 311</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logoutButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;сохранитьToolStripMenuItem1.Name" xml:space="preserve">
+    <value>сохранитьToolStripMenuItem1</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mapLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="поУмолчаниюToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="pathTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pathTabPage.Name" xml:space="preserve">
+    <value>pathTabPage</value>
+  </data>
+  <data name="сохранитьToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="clearButton" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="rowsUpDown" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="colsUpDown" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelRows" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelCols" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,20,Absolute,30,Absolute,20,Absolute,30,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;clearButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 261</value>
+  </data>
+  <data name="файлToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="&gt;&gt;labelB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;logoutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;очиститьКартуToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;видToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;поУмолчаниюToolStripMenuItem.Name" xml:space="preserve">
+    <value>поУмолчаниюToolStripMenuItem</value>
+  </data>
+  <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelRows.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;colsUpDown.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;mapPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="файлToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="textBoxA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="&gt;&gt;labelDistance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelCols.Text" xml:space="preserve">
+    <value>Количество столбцов:</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>editTabPage</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="правкаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Правка</value>
+  </data>
+  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 255</value>
+  </data>
+  <data name="&gt;&gt;mapLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clearButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 161</value>
+  </data>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labelCols.Name" xml:space="preserve">
+    <value>labelCols</value>
+  </data>
+  <data name="labelCols.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="mapLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 291</value>
+  </data>
+  <data name="labelA.Text" xml:space="preserve">
+    <value>Координаты точки A:</value>
+  </data>
+  <data name="labelA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 73</value>
+  </data>
+  <data name="labelB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="labelCols.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;editTabPage.Name" xml:space="preserve">
+    <value>editTabPage</value>
+  </data>
+  <data name="rowsUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="logoutButton.Text" xml:space="preserve">
+    <value>Выйти из аккаунта</value>
+  </data>
+  <data name="&gt;&gt;русскийToolStripMenuItem.Name" xml:space="preserve">
+    <value>русскийToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сохранитьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pathTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxB.Text" xml:space="preserve">
+    <value>(-1; -1)</value>
+  </data>
+  <data name="&gt;&gt;textBoxA.Name" xml:space="preserve">
+    <value>textBoxA</value>
+  </data>
+  <data name="&gt;&gt;mapLabel.Name" xml:space="preserve">
+    <value>mapLabel</value>
+  </data>
+  <data name="labelDistance.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="colsUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 73</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="&gt;&gt;logoutButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="русскийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 3</value>
+  </data>
+  <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="logoutButton" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tabControl" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 311</value>
+  </data>
+  <data name="&gt;&gt;labelB.Name" xml:space="preserve">
+    <value>labelB</value>
+  </data>
+  <data name="clearButton.Text" xml:space="preserve">
+    <value>Очистить карту</value>
+  </data>
+  <data name="clearButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="editTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 193</value>
+  </data>
+  <data name="сохранитьToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="labelA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="mapPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;оПрограммеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clearButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;clearButton.Name" xml:space="preserve">
+    <value>clearButton</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pathTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="labelDistance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="labelB.Text" xml:space="preserve">
+    <value>Координаты точки B:</value>
+  </data>
+  <data name="&gt;&gt;createToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="видToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="labelA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="цветФонаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="&gt;&gt;pathTabPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="tableLayoutPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="светлокрасныйToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="&gt;&gt;цветФонаToolStripMenuItem.Name" xml:space="preserve">
+    <value>цветФонаToolStripMenuItem</value>
+  </data>
+  <data name="сохранитьКакToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="&gt;&gt;mapLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="светлозолотистожёлтыйToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;clearButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="createToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;clearButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRows.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="языкToolStripMenuItem.Text" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="logoutButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="сохранитьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 219</value>
+  </data>
+  <data name="logoutButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="labelB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 50</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="правкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="labelDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rowsUpDown.Name" xml:space="preserve">
+    <value>rowsUpDown</value>
+  </data>
+  <data name="&gt;&gt;справкаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="поУмолчаниюToolStripMenuItem.Text" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="&gt;&gt;mapPanel.Name" xml:space="preserve">
+    <value>mapPanel</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="поставитьНачальнуюТочкуToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Name" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="colsUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="&gt;&gt;правкаToolStripMenuItem.Name" xml:space="preserve">
+    <value>правкаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;беларускаяToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDistance.Text" xml:space="preserve">
+    <value>Путь не найден!</value>
+  </data>
+  <data name="&gt;&gt;rowsUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;labelRows.Name" xml:space="preserve">
+    <value>labelRows</value>
+  </data>
+  <data name="logoutButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;сохранитьКакToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;поставитьКонечнуюТочкуToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 187</value>
+  </data>
+  <data name="labelRows.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;labelA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="createToolStripMenuItem.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="mapLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;светлокрасныйToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="logoutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 24</value>
+  </data>
+  <data name="&gt;&gt;labelB.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Расчёт пути</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="цветФонаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel5" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mapPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,60,Percent,40,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;русскийToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 27</value>
+  </data>
+  <data name="сохранитьКакToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="&gt;&gt;беларускаяToolStripMenuItem.Name" xml:space="preserve">
+    <value>беларускаяToolStripMenuItem</value>
+  </data>
+  <data name="labelRows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="&gt;&gt;светлокрасныйToolStripMenuItem.Name" xml:space="preserve">
+    <value>светлокрасныйToolStripMenuItem</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa2RhAIKMkAC56/0Ad35/FYKRlkmImqCEjqGospKk
+        q8+Upq3clKat2pKkq8qNn6Wqh5ied4GPlDxvcXENnLrFAHyEhwBiU08AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIg0JAHuChADJ//8AfYiMIomboXiWqK/Ip7a88rnG
+        y//Ays3/ytPV/9HZ3P/Q2Nr/yNHT/8PN0v+2w8n9o7O665OlrLmImJ5ieYCCFZq1vwB0dnYAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFlBOgCIl5wAdXh5DYiZoGyZqrHXr73C/7nF
+        yv/Bz9P/1eDi/8HCtv+/v7L/s7Ki/7Oyov+5uar/0tXO/9fh5P/E0NT/u8bL/6u6wPyUp63EhpWbUGFW
+        UgV/iYwABwUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZQDoAkKixAH+JjSKOoaeoprW7+sLN
+        0f+9y8//lLK7/4iyvf+92N7/x8i9/7u7r/+pqZn/rq6f/729sf/c4Nz/stLZ/4ewu/+dtr//x9HW/8DK
+        z/+gsLfxi52jiHp/gRGDkJUAKx0QAAAAAAAAAAAAAAAAAAAAAAAAAAAACQIBAJGqsQCBjZIskqWsxLfD
+        yP+8yMv/faKw/2KXrv+xzNb/uNHa/8vX3f+7xMj/rbe7/6iytv+os7b/rbe6/8LLz//L2+H/tc/Y/6TD
+        0P9ilav/i6q3/8PM0P+tvMH9j6GopH2EhxZ/i48AAAAAAAAAAAAAAAAAAAAAAAAAAACGkZUAgIuOI5Ol
+        rMWvu8D/tsXI/5i1vv+jwMv/nb7O/7zIz/+osrb/naan/5mfnf+Xmpb/mJmV/5mblv+Ym5j/l52c/5uj
+        pv+strv/wdDY/5W6zP+eu8f/nrjA/7vHy/+ptrz+jqCnoXl+gA91d3gAAAAAAAAAAAAAAAAAZmBeAHl/
+        gA6PoaeqsL3B/7rIyv+sw8b/q8rT/8jW3P+ptLn/oaip/5ucmP+WlIz/lZGH/5OTjv+Ij43/j5SP/5CN
+        hP+Xk4r/m5mT/5WYlP+ZoqT/sr3C/87e5f+lxM3/rcLF/7/Kzf+otrz8i5yigGhhYAMmDgwAAAAAAAAA
+        AAA2DgIBi5uhbqGwtvqWucL/ebTE/7ja5P/Ez9T/pa+z/6qurf+al5H/kIuB/52clv+Cm6v/P4W0/0GT
+        xv98yOj/i7rN/6GtsP+em5T/i4d+/5aVj/+epKT/prK3/9Pf4/+t097/fbTD/524wf+bq7HthZOYRI6d
+        ogAAAAAAYVNQAICLjySXqK/bssHF/3+3xv+Sx9j/rcrW/6ixtf+vsq//pKGd/5qWkP+fqa3/YprB/yGB
+        xP8QesP/NJXS/3rX/v982f//hNP0/6DE1f+mp6X/kIyE/56dlv+lqqn/q7W6/7HW4/+JwdL/iLjG/7G9
+        wv+Roqm3d3x9DQAAAABEHhQBjJ2jfJyts/52ssL/T7DM/6/W5P+qtLj/t7q5/52bk/+fnJb/namx/1qQ
+        tv8Xe8D/EnzE/xJ7wv81ldH/etb9/3zZ//972v//fNj+/5vM4v+tsLD/lpOL/6emn/+psLH/tb/E/6ja
+        6/9OrMj/grLA/5mpsPaIl5xNeXx8AHqBhBeWp63Mrr/E/365yP+Nydv/mrjD/7i9vv+rqqP/op+X/56q
+        sf9qkq//kpqh/2eLpf8lfbn/EHrB/zSV0v961v7/e9Dy/3Ssw/9zqsH/fMrr/57L3/+urqv/nJiP/7Ky
+        rv+psbT/osnX/4bF2P+Bt8f/q7rA/5ChqKJsaGUFhpWaTZqprvSDs8D/Ta/M/6DP3/+stbn/wcPB/62q
+        o/+xsa7/dJy4/4SVof+1sa//rKmn/4OQmv9ciKf/U5jD/3rW/v971vr/jrzP/4+ptP9/qbr/gLzW/7LG
+        z/+wraj/q6mh/7a7u/+xu8D/ndbo/1Ctyf+Ps73/laWr3H+JjSOMnKKJnbC3/3C0x/9tuc//e7LF/7m+
+        wP+0s63/uLWw/7K8wv9qkq//srCt/767uf+opKH/l5KN/4yLiP9elrb/e8fn/4K1yv+Mwdb/i8ff/3rN
+        7/97z/L/pM/j/8PCv/+npJz/ubu3/6qzt/+Awtf/abbM/3Szxf+ZqrD2h5WaU4+hp7fAys//iLzK/5jU
+        5v+rusD/v8PD/6mnn//BwLv/ssPP/zyIvf+Sr8L/uLa1/6Semv+YlJH/S3qa/zeUz/97zO7/e8bk/4XC
+        2/+FxuD/fs/w/3vX/P+d0Oj/1dTT/6mnn/+0s63/sbm8/7vN1P+LzuL/mcLN/7K/xP6JmqB+k6Wr08rR
+        1f9yu9D/ldXq/6+3u//AwsH/tLGr/8zLyP+5ytf/IIDD/x6Awv9Firj/WYyv/0aDrP8Wer7/NZbS/3zW
+        /P+B1Pb/gbbL/4Gyxf9/y+n/etj//5/Q5v/k4+L/tLOs/7SyrP+ts7T/wMjN/4bU7P+IwdL/vsfM/4ud
+        o52Upqzf1dzf/5/R3v+43uv/pq+z/7e3tf/BwL3/2dnW/8jU3f82jMf/IYXI/yCFyf8hhcn/IYbJ/yGF
+        yP89mtP/ccr0/3LA5P92uNf/c8Pp/3HN9v9wy/X/pczg/+/u7f/Ix8T/w8G//6Onpv+4wcX/ruDw/6nT
+        4P/FztP/jJ6kq5Olq93Y4OX/9vv9/+jw9P+kr7L/tLWz/6imov/j4+H/3OHj/4DF5v9wzfb/cMz2/3DM
+        9v9xzff/cs32/1625v8miMn/IobJ/yGGyf8hhsn/IobJ/yiIx/+lwNL/+fj3/8fGxP+wrar/p6yr/7XA
+        xP/x+fz/8vn7/8XP1f+LnaOokKKozNDZ3f/t7+v/2d3b/6Wvs//BxML/ubi2/9XV0//i5Ob/js/s/3vT
+        9v+FutD/hLXJ/33R8v9+3P//Yb3r/xZ9w/8zhb7/apSy/1SMs/8nf7z/HH7C/67D0//39vX/wMC9/8TD
+        wf+utLT/s72//+Lk4P/3+fn/vsrP/4qcopSMnqSqwczR/9PVzf/Iy8L/qbO2/8HGxv/Iycf/w8TB/9fc
+        3v+Kwdn/iaCp/56amv+no6L/lKSq/4G60P9gtuP/GH3D/4Spw//SzMn/wL28/12OsP8YfcL/o77R/+fm
+        4//Bwr//zc/M/6qytP+8xcf/0dLL/+Hk4v+ywMb9h5idcYeYnnaywMb92d3Z/8rNxP+zvb7/tb2+/9ze
+        3P/29vX/y9jf/5PD2P+wrq3/m5aV/52ZmP+emZf/mamv/2Os1P8cf8P/iaGy/7q2tP+1srH/g5ur/zKH
+        wf97qcv/7+7s//r6+v/P09D/pbCz/77Fwf/Gx7z/3+Xl/6S0uvCCkJVCgY6SOaCxuOrS2dj/0NLJ/7/G
+        w/+qtbn/7e/w//f29f+20t//lM7m/9nY1/+qpqT/jIqI/42zxP+C0/P/Ybzr/xl+w/9tkKn/pJ6c/5yd
+        n/+hrLT/hp+u/1eSuv/g4+X//v7+/9TZ2v+st7v/z9LM/9DRyP/I0NH/lqivzHqAghZ1d3cLkaOqtcfR
+        1v/b3dj/1dfS/6+5vf/Jz9L/7e3t/57O5f+G0O7/u8nP/66qp/97fXn/esTj/33c//9hvOv/GX3B/1d7
+        lP+Ujoj/kY6L/1qIp/9SfJb/UoGg/7zM2P/y8/P/sLq+/8jQ0v/S08v/4ubk/7nGzP+LnaOHWD85AYyo
+        sQCGlpxbqLi++dDU0f/a29T/y9HQ/6izuP/HztL/jNHw/3nY/v9+0PH/i7XF/3qFh/96xOL/fdv//2G8
+        6/8dfL3/WHiO/3mLlf+Dkpz/T4So/xF6wf8bfL7/h7HP/8DGx/+vur7/09jT/8nMwv/R2Nn/nq+26YOP
+        kzJmWFUAVTUpAHuBghCRpKu9xM/T/9/h3v/V19D/vsbG/5yqsf+lxdX/qdDj/5rO5v+Jz+3/fsTi/3vS
+        9v992///Ybzr/xh+w/8YfMD/G3y//zGEvv9TlMH/cKTJ/4ewzf+Pqrz/prG2/87U0v/R0cj/yc3G/7PB
+        xv+NnqSSb2lnBAAAAAAAAAAAh6GqAIWTmEWer7btyM/O/9TUzP/S1M7/tLy8/6avs//T1db/6urq/9vg
+        4/+8097/lM7n/37W+v9gvOv/Fn3D/y+Gw/94p8n/u8vX/+Hk5v/p6en/wsbI/6iytv/W3d7/19jR/9PV
+        zv/DzM//lqiv1ICLjiN3eHkAAAAAAAAAAABrQjQAa1xYA4maoXmnt736ztPS/+ns6f/a3Nf/uL+9/6ay
+        tv/Bycz/6evs//T08//j5eb/ttLg/3G54f9insn/wM/Z/+/u7f/09PT/3eHi/7O8wP+vur7/zdPR/9/g
+        2v/t8O7/x8/Q/52vte2GlJlQw///AAAAAAAAAAAAAAAAAAAAAAB2dXUAd3p6C4yepJKsu8H809nZ/9HT
+        y//X2NH/xcnE/7a/wv+qtbn/uMHE/8zS1P/R1Nb/vMjQ/8fO0v/U2Nn/xs3Q/7C6vv+qtbn/v8fI/+Hm
+        5f/X2ND/0dPL/8/X2f+is7ryiJmeal1OSAJpWFMAAAAAAAAAAAAAAAAAAAAAAAAAAACAh4kAd3x9Doud
+        pIyjs7n3x9DR/9PVz//Qz8b/7fDv/8jNyP+yurj/rre5/6eytf+msLL/qLO2/6eytP+wurv/vMTC/9vg
+        3//T1c3/4uTf/+zw8f/Bys3/nK606oiYnmhlXFoEc3JyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAB/iIsAcW1sCIiYnmiaq7LfuMTI/9Xb2//t8fD/0NHI/8zNxP/Ky8L/1djT/8HEuv/Iy8P/yMrB/9LU
+        zf/KzcP/4+bi/+Dk4v/R2dr/tcLJ/5SmrsyEk5hKLgAAAXV3eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAB7fn8A////AIGNkTCOoKadoLG467jFyv/J0tP/1NnY/9HUz//W2tX/ztHJ/9HT
+        zP/T1tD/0dbR/9fe3v/EztD/s8DG/5qss9+KnKKEfYaJHpq5xABubGwAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABuZmQAiJidAF1OSgWCj5Q2i52jhpanrseisrnrrbvC+rTB
+        x/+5xsv/uMXK/7PBx/6qub/3nq+15ZOkq7uJmqB0f4qOJwAAAACCjJAAZVVQAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCAcAdHR0AIiWmwDi//8Adnp8EoCN
+        kTeElZpeiJmfe4mboYqJm6GIh5ifdoSTmVZ+io4ucG9vDKfO2wCDjZEAcm1rAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/8AD//8AAP/8AAA/+AAAH/AAAA/gAAAHwAAAA4AAAAOAAAABAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAGAAAABwAAAA8AA
+        AAfgAAAH8AAAD/gAAB/+AAB//wAB///gB/8=
+</value>
+  </data>
+  <data name="&gt;&gt;textBoxA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;правкаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="labelA" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelB" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textBoxA" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textBoxB" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelDistance" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,20,Absolute,30,Absolute,20,Absolute,30,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mapPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="labelB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxA.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
+    <value>pathTabPage</value>
+  </data>
+  <data name="clearButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="очиститьКартуToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;logoutButton.Name" xml:space="preserve">
+    <value>logoutButton</value>
+  </data>
+  <data name="&gt;&gt;очиститьКартуToolStripMenuItem.Name" xml:space="preserve">
+    <value>очиститьКартуToolStripMenuItem</value>
+  </data>
+  <data name="labelCols.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 50</value>
+  </data>
+  <data name="языкToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;rowsUpDown.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="editTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colsUpDown.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="rowsUpDown.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;textBoxB.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;labelCols.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelA.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;поставитьНачальнуюТочкуToolStripMenuItem.Name" xml:space="preserve">
+    <value>поставитьНачальнуюТочкуToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;labelA.Name" xml:space="preserve">
+    <value>labelA</value>
+  </data>
+  <data name="&gt;&gt;оПрограммеToolStripMenuItem.Name" xml:space="preserve">
+    <value>оПрограммеToolStripMenuItem</value>
+  </data>
+  <data name="labelB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="&gt;&gt;сохранитьToolStripMenuItem.Name" xml:space="preserve">
+    <value>сохранитьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="справкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="textBoxA.Text" xml:space="preserve">
+    <value>(-1; -1)</value>
+  </data>
+  <data name="pathTabPage.Text" xml:space="preserve">
+    <value>Поиск пути</value>
+  </data>
+  <data name="&gt;&gt;pathTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сохранитьToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 255</value>
+  </data>
+  <data name="textBoxA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="сохранитьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;светлозолотистожёлтыйToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createToolStripMenuItem.Name" xml:space="preserve">
+    <value>createToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;справкаToolStripMenuItem.Name" xml:space="preserve">
+    <value>справкаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="светлосинийToolStripMenuItem.Text" xml:space="preserve">
+    <value>Светло-синий</value>
+  </data>
+  <data name="labelDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 167</value>
+  </data>
+  <data name="mapLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 20</value>
+  </data>
+  <data name="&gt;&gt;rowsUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTabPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;colsUpDown.Name" xml:space="preserve">
+    <value>colsUpDown</value>
+  </data>
+  <data name="&gt;&gt;светлосинийToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="mapPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelRows.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="поставитьНачальнуюТочкуToolStripMenuItem.Text" xml:space="preserve">
+    <value>Поставить начальную точку</value>
+  </data>
+  <data name="rowsUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;файлToolStripMenuItem.Name" xml:space="preserve">
+    <value>файлToolStripMenuItem</value>
+  </data>
+  <data name="labelA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="rowsUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="editTabPage.Text" xml:space="preserve">
+    <value>Редактирование</value>
+  </data>
+  <data name="&gt;&gt;editTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;поставитьКонечнуюТочкуToolStripMenuItem.Name" xml:space="preserve">
+    <value>поставитьКонечнуюТочкуToolStripMenuItem</value>
+  </data>
+  <data name="очиститьКартуToolStripMenuItem.Text" xml:space="preserve">
+    <value>Очистить карту</value>
+  </data>
+  <data name="поставитьКонечнуюТочкуToolStripMenuItem.Text" xml:space="preserve">
+    <value>Поставить конечную точку</value>
+  </data>
+  <data name="&gt;&gt;mapLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;цветФонаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;языкToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 24</value>
+  </data>
+  <data name="&gt;&gt;поУмолчаниюToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="беларускаяToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="pathTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="textBoxB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 187</value>
+  </data>
+  <data name="textBoxA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelRows.Text" xml:space="preserve">
+    <value>Количество строк:</value>
+  </data>
+  <data name="&gt;&gt;файлToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;поставитьНачальнуюТочкуToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="видToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="textBoxB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelCols.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="colsUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;labelRows.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;labelDistance.Name" xml:space="preserve">
+    <value>labelDistance</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="&gt;&gt;mapPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="светлокрасныйToolStripMenuItem.Text" xml:space="preserve">
+    <value>Светло-красный</value>
+  </data>
+  <data name="&gt;&gt;logoutButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="светлосинийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="&gt;&gt;labelCols.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="беларускаяToolStripMenuItem.Text" xml:space="preserve">
+    <value>Беларуская</value>
+  </data>
+  <data name="&gt;&gt;textBoxA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDistance.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="справкаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="&gt;&gt;светлозолотистожёлтыйToolStripMenuItem.Name" xml:space="preserve">
+    <value>светлозолотистожёлтыйToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;colsUpDown.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pathTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 193</value>
+  </data>
+  <data name="&gt;&gt;textBoxB.Name" xml:space="preserve">
+    <value>textBoxB</value>
+  </data>
+  <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;сохранитьКакToolStripMenuItem.Name" xml:space="preserve">
+    <value>сохранитьКакToolStripMenuItem</value>
+  </data>
+  <data name="editTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="светлозолотистожёлтыйToolStripMenuItem.Text" xml:space="preserve">
+    <value>Светло-золотисто-жёлтый</value>
+  </data>
+  <data name="logoutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 228</value>
+  </data>
+  <data name="&gt;&gt;textBoxB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="menuStrip1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mapLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,Percent,100,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;видToolStripMenuItem.Name" xml:space="preserve">
+    <value>видToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;светлосинийToolStripMenuItem.Name" xml:space="preserve">
+    <value>светлосинийToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="поставитьКонечнуюТочкуToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mapPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="русскийToolStripMenuItem.Text" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="labelRows.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;labelCols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;языкToolStripMenuItem.Name" xml:space="preserve">
+    <value>языкToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;colsUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>be</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
