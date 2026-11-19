@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lab26/Lab26.vcxproj" Id="7ca577e6-6397-44a6-9c8e-48a0bc65c4dd" />
+  <Project Path="Lab26_5/Lab26_5.vcxproj" />
+  <Project Path="LabMedia/LabMedia.vcxproj" />
+  <Project Path="prim2/prim2.vcxproj" />
+  <Project Path="zad1/zad1.vcxproj" />
+</Solution>
